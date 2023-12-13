@@ -1,0 +1,180 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	margin: 0px;
+}
+
+.button {
+	padding-top: 10px;
+    text-decoration: none;
+	color: black;
+}
+
+.button a {
+	text-decoration: none;
+}
+
+.button a:hover {
+	color: #3b719f;
+}
+
+h1 {
+	font-family: Lexend;
+	font-size: 50px;
+	margin: 0;
+}
+
+h2 {
+	font-family: Poppins;
+	opacity: 50%;
+	margin-bottom: 50px;
+}
+
+.learnmore {
+	font-family: Poppins;
+	color: white;
+	background: grey;
+	padding: 10px 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: .5s;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+.learnmore:hover {
+	color: lightblue;
+	background-color: black;
+}
+
+header {
+    background: lightblue;
+    height: 80px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0 0 5px #555;
+}
+
+.title {
+	padding-top: 50px;
+	background-color: #3b719f;
+}
+
+.logo-text {
+	font-family: Poppins;
+	font-size: 50px;
+	float: left;
+	line-height: 80px;
+	padding-left: 30px;
+}
+
+ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+}
+
+li {
+	font-family: Poppins;
+	line-height: 50px;
+	padding: 0 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #3b719f;
+	text-decoration: none;
+}
+
+main {
+	height: 100vh;
+	display: flex;
+	background: url("../images/home.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main-content {
+	text-align: center;
+	margin: auto;
+	color: #3b719f;
+}
+
+.title {
+	text-align: center;
+	color: #3b719f;
+}
+
+.flex-container img {
+	width: 30vh;
+	overflow: hidden;
+	padding-top: 15vh;
+}
+
+.flex-container {
+	overflow: hidden;
+	color: white;
+	display: flex;
+	text-align: center;
+	background: #3b719f;
+	justify-content: center;
+	height: 100vh;
+	gap: 20vh;
+}
+
+h3 {
+	font-family: Poppins;
+	font-size: 60px;
+	color: white;
+}
+
+h4 {
+	font-family: Poppins;
+	font-size: 40px;
+}
+
+p {
+	font-family: Lexend;
+	font-size: 17px;
+	font-weight: 900;
+	color: black;
+}
+
+.divcontainer {
+	color: white;
+}
+
+.aboutpage {
+	justify-content: center;
+	text-align: justify;
+	background: url(../images/blue.jpg);
+	opacity: 85%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100vh;
+}
+
+.description {
+	padding: 50px 100px;
+}
+
+footer {
+	height: 200px;
+	background: lightblue;
+	color: #3b719f;
+	text-align: center;
+	padding-top: 50px;
+	font-family: Lexend;
+	font-size: 15px;
+}
